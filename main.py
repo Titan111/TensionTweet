@@ -3,6 +3,7 @@
 import tweepy 
 import twipy 
 import urllib
+import json
 
 API_KEY = "1569AB145D7B6E3A8F1D049372D96ED81B653130"
 def feel_api(text):
