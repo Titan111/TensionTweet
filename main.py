@@ -5,7 +5,7 @@ import twipy
 import urllib
 import json
 
-API_KEY = "1569AB145D7B6E3A8F1D049372D96ED81B653130"
+API_KEY = "xxxxxx"
 def feel_api(text):
 	url = "http://ap.mextractr.net/ma9/emotion_analyzer?out=json"
 	params_txt = urllib.parse.urlencode(
@@ -15,7 +15,7 @@ def feel_api(text):
 	response = urllib.request.urlopen(url+"&"+params_txt)
 	return response.read()
 
-USER_NAME = "titan_FF"
+USER_NAME = "XXXX"
 if __name__ == "__main__":
 
 	api = twipy.make("tomo_iwa.json")
